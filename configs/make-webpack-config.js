@@ -9,6 +9,17 @@ module.exports = function(options) {
             src: './src/entry.js',
             test: './test/tests.js'
         },
+        resolve: {
+            root: [
+                path.resolve("./components"),
+                path.resolve("./assets"),
+                path.resolve("./test"),
+                path.resolve("./views"),
+                path.resolve("./styles")
+
+            ],
+            extensions: ["", ".js", ".jsx", ".json", ".scss"]
+        },
         output: {
             path: process.cwd(),
             filename: './[name]/bundle.js'
