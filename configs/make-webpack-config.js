@@ -15,6 +15,10 @@ module.exports = function(options) {
         },
         module: {
             loaders: [
+                {
+                    test: /\.scss$/,
+                    loaders: ["style", "css?sourceMap", "sass?sourceMap"]
+                },
                 { test: /\.css$/, loader: 'style!css' },
                 { test: /\.srt/, loader: 'raw' },
                 {
