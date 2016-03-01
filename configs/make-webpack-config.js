@@ -15,7 +15,8 @@ module.exports = function(options) {
                 path.resolve("./assets"),
                 path.resolve("./test"),
                 path.resolve("./views"),
-                path.resolve("./styles")
+                path.resolve("./styles"),
+                path.resolve("./test")
 
             ],
             extensions: ["", ".js", ".jsx", ".json", ".scss"]
