@@ -3,7 +3,6 @@
 import './styles.css';
 
 // import some modules from other files
-import {getTwo} from './scripts/utils';
 
 // write your application
 const container = document.getElementById('container');

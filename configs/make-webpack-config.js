@@ -11,12 +11,13 @@ module.exports = function(options) {
         },
         resolve: {
             root: [
-                path.resolve("./components"),
-                path.resolve("./assets"),
-                path.resolve("./test"),
-                path.resolve("./views"),
-                path.resolve("./styles"),
-                path.resolve("./test")
+                path.resolve("./src/components"),
+                path.resolve("./src/assets"),
+                path.resolve("./src/test"),
+                path.resolve("./src/views"),
+                path.resolve("./src/scripts"),
+                path.resolve("./src/styles"),
+                path.resolve("./src/test")
 
             ],
             extensions: ["", ".js", ".jsx", ".json", ".scss"]
